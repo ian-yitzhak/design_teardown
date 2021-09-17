@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+  }
 body{
 	margin: 0;
 	padding: 0;
@@ -77,3 +80,105 @@ body{
 .nav{
 	box-shadow: rgba(0, 0, 0, 0.12)0px 4px 20px;
 }
+.content:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  .column {
+	float: left;
+	padding: 10px;
+
+  }
+  
+  .right {
+	width: 40%;
+  }
+  
+  .left {
+	width: 60%;
+	text-align: center;
+  }
+  .author_post{
+	  display: inline-flex;
+	  padding: 30px 0 0 100px;
+	  text-align: center;
+  }
+  .image_author_container{
+	  padding: 70px 0 0 0;
+	  margin:20px;
+  }
+  .author_image{
+	  width: 130px;
+	  
+	  height: 130px;
+	  border: 5px solid red;
+	  background-size: cover;
+	  text-align: center;
+	transform: rotate3d(0, 0, 1, -35deg);
+	border-top-left-radius: 10px;
+	border-bottom: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	
+  }
+  .author_content{
+	  
+	  font-size: 30px;
+  }
+  .title{
+	  font-size: 18px;
+  }
+  .date{
+	  font-weight: normal;
+	  font-size: 12px;
+  }
+  .author_text{
+	  padding-left: 150px;
+  }
+  .promo_image{
+	  width: 180px;
+	  height: 180px;
+	  border-radius: 50%;
+
+  }
+  .news_button{
+	  width: 200px;
+	  font-size: 15px;
+	  font-weight: bold;
+	  height: 40px;
+	  background-color:white;
+	  color:red;
+	  border-top-left-radius: 10px;
+	border-bottom: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+  }
+  .promo_image_container{
+	  border: 1px dashed red;
+	   
+  }
+  .email{
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+  }
+  .enter_email{
+	width: 200px;
+	height: 60px;
+	border-top-left-radius: 10px;
+	border-bottom: 10px;
+	border-bottom-left-radius: 10px;
+
+  }
+  .email_text{
+	  background-color: blue;
+	  color: white;
+	  height: 60px;
+	  align-items: center;
+	  text-align: center;
+	  border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+  }
